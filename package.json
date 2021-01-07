@@ -1,0 +1,46 @@
+{
+  "name": "front_end_fundamentals-css_layouts",
+  "version": "2.0.0",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "parcel public/index.html --dist-dir dist",
+    "build": "parcel build public/index.html",
+    "clean": "rm -rf .parcel-cache dist"
+  },
+  "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "parcel": "^2.0.0-beta.1",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-inlinesvg": "^2.2.2",
+    "react-router-dom": "^5.2.0",
+    "reat": "^0.0.1-security",
+    "stylelint": "^13.8.0",
+    "stylelint-config-property-sort-order-smacss": "^7.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "sass": "^1.32.0"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**",
+    "excludeGlob": [
+      "index.html"
+    ]
+  }
+}
